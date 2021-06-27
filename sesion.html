@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sesión</title>
+  
+        <script type="module" src="cmp/mi-nav.js"></script>
+        <script type="module" src="cmp/mi-footer.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" href="film.ico"/>
+  
+        <!--Carga el núcleo de Firebase JS SDK-->
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+        <!--Agrega el manejo de autenticación.-->
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+        <!--Agrega el manejo de bases de datos.-->
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+        <!--Configura la app usando la información del sitio de Firebase.-->
+        <script src="js/init.js"></script>
+    </head>
+    
+    <body>
+        <mi-nav></mi-nav>
+        <form name="forma">
+            <header>
+                <h1 align="center">Sesión</h1>
+            </header>
+        
+            <figure>
+                <img id="avatar" alt="Avatar">
+            </figure>
+            
+            <h4>Nombre: <output name="nombre"></output></h4>
+            <h4>Correo: <output name="email"></output></h4>
+      
+            <button type="button" name="terminarSesión"> Terminar Sesión </button>
+            
+        </form>
+            
+        <mi-footer></mi-footer>
+        
+        <script type="module" src="js/CtrlSesion.js"></script>
+    </body>
+</html>

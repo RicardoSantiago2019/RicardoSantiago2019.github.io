@@ -1,0 +1,32 @@
+@import "mi-nav.css";
+@import "mi-footer.css";
+@import "listas.css";
+
+:root {
+  font-family: sans-serif;
+}
+
+body{
+    background: #B6B6B4;
+}
+table{
+    background-color: white;
+    width: 100%;
+    align: middle;
+    align-content: center;
+}
+
+form{
+    padding: 10px;
+    background-color: white;
+    width: 98.8%;
+    align: middle;
+}
+
+mi-footer{
+    text-align: center;
+}
+
+label{
+    height: 25px
+}

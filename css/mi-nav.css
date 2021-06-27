@@ -1,0 +1,27 @@
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #413839;
+    width: 100%;
+    margin: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.menu li a{
+    max-width: 1000px;
+    text-decoration: none;   
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: orange;
+}
